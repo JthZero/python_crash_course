@@ -25,5 +25,12 @@ print(len(favorite_language.strip()))  # Length after stripping both sides
 # Removing prefixes
 nostach_url = 'https://nostach.io'
 print("\n" + nostach_url.removeprefix('https://'))  # Remove 'https://'
-print(f"\n{nostach_url.removeprefix('https://')}")  # Remove 'https://'
+print(f"\n\t{nostach_url.removeprefix('https://')}")  # Remove 'https://'
 
+simple_url = nostach_url.removeprefix('https://')
+print(f"\n\t{simple_url}")
+
+#Removing suffixes
+file = 'full_name.py'
+print("\n" + file.removesuffix('.py'))  # Remove '.py'
+print(f"\n\t{file.removesuffix('.py')}")  # Remove '.py
