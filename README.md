@@ -1,0 +1,1 @@
+Se haran los ejericios y proyectos del libro Python Crash Course
